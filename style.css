@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "REM";
+    src: url("./assets/fonts/REM-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+    font-family: "REM";
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    background-color: #d5d5d5;
+}
+
+#content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 65px;
+        width: 90%;
+
+        border-bottom: 2px #a8a6a6 solid;
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 40px;
+                width: auto;
+            }
+
+            h1 {
+                margin-right: 20px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a > p {
+                cursor: pointer;
+                font-size: 1.25rem;
+                color: initial;
+            }
+        }
+    }
+
+    main {
+
+    }
+
+    footer {
+
+    }
+}
